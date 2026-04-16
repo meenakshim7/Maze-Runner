@@ -84,6 +84,8 @@ g++ main.cpp -o game.exe
 
 ## 💡 About This Project
 
+http://127.0.0.1:5500/index.html
+
 This project focuses on building strong fundamentals in:
 
 * Problem solving
