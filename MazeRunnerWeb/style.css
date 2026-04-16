@@ -1,0 +1,25 @@
+body {
+    background: linear-gradient(135deg, #1e1e2f, #3a3a6a);
+    color: white;
+    font-family: Arial;
+    text-align: center;
+}
+.container {
+    margin-top: 50px;
+}
+#maze {
+    display: grid;
+    grid-template-columns: repeat(6, 60px);
+    justify-content: center;
+    gap: 5px;
+    margin: 20px auto;
+}
+.cell {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
+.wall { background: #444; }
+.path { background: #ccc; }
+.player { background: #00ff88; }
+.exit { background: #ff4d4d; }
